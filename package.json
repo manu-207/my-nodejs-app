@@ -5,11 +5,12 @@
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "build": "echo 'No build steps required'"
+    "build": "mkdir -p build && echo 'Build your files here' > build/index.html"
   },
   "author": "manu",
   "license": "MIT",
   "dependencies": {}
 }
+
 
   
